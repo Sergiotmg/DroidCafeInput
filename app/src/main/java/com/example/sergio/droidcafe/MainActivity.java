@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                //        .setAction("Action", null).show();
-                //Metodo para llamar al order activity
-                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
-                //añado para que pase a un intent el extra_message
-                intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
-                startActivity(intent);
+                public void onClick(View view) {
+                    //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                    //        .setAction("Action", null).show();
+                    //Metodo para llamar al order activity
+                    Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+                    //añado para que pase a un intent el extra_message
+                    intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
+                    startActivity(intent);
 
             }
         });
