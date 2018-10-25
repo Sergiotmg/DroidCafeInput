@@ -1,5 +1,5 @@
-<resources>
-    <string name="app_name">Droid Cafe</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DroidCafeInput</string>
     <string name="action_settings">Settings</string>
     <string name="droid_desserts">Droid Desserts</string>
     //descripciones
@@ -12,4 +12,21 @@
 
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
+    <string name="name">Nombre</string>
+    <string name="enter_name">Pon tu nombre</string>
+    <string name="enter_address_hint">Introduce dirección</string>
+    <string name="enter_adress_hint">Introduce dirección</string>
+    <string name="enter_your_name">Introduce tu nombre</string>
+    <string name="enter_phone">Introduce teléfono</string>
+    //para las notas
+    <string name="note">Notas</string>
+    <string name="note_text">Introduce nota</string>
+    <string name="enter_note_hint">Intro nota</string>
+
+    //para los radio button
+    <string name="delivery_method_text">Elige el método de entrega</string>
+    <string name="pick_up">Para llevar</string>
+    <string name="next_day_text">Siguiente dia</string>
+    <string name="same_day_text">Mismo dia</string>
+
 </resources>
