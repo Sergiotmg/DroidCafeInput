@@ -47,7 +47,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="32dp"
-        android:text="Direccion"
+        android:text="@string/adress_label_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name_label" />
 
@@ -105,7 +105,7 @@
         android:layout_marginLeft="8dp"
         android:ems="10"
         android:hint="@string/enter_note_hint"
-        android:inputType="textCapSentences"
+        android:inputType="textCapSentences|textMultiLine"
         app:layout_constraintBaseline_toBaselineOf="@+id/note_label_text"
         app:layout_constraintStart_toEndOf="@+id/note_label_text" />
 

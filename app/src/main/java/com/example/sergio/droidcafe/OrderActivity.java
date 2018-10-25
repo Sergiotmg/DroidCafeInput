@@ -16,9 +16,11 @@ public class OrderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
         Intent intent = getIntent();
-        String message = "Order: " +
+        // texto que recibe del Main:
+        String message = getString(R.string.order_description) +
                 intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-        TextView textView = findViewById(R.id.order_textview);
+        // asigno al textview el mensaje que recibe del main definiendo antes un textview
+        TextView textView = findViewById(R.id.order_textview);//R.id para decirle que id tiene
         textView.setText(message);
         //para los radiobutton definimos el RadioGroup
         RadioGroup radioGroup= findViewById(R.id.radioGroup);
