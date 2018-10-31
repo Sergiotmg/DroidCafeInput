@@ -12,12 +12,14 @@
 
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
+
+    //labels y enter texts del activity_order
+    <string name="order_description">Pedido:</string>
     <string name="name">Nombre</string>
-    <string name="enter_name">Pon tu nombre</string>
-    <string name="enter_address_hint">Introduce dirección</string>
+
     <string name="enter_adress_hint">Introduce dirección</string>
     <string name="enter_your_name">Introduce tu nombre</string>
-    <string name="enter_phone">Introduce teléfono</string>
+    <string name="enter_phone">Introduce tlfno.</string>
     //para las notas
     <string name="note">Notas</string>
     <string name="note_text">Introduce nota</string>
@@ -28,12 +30,16 @@
     <string name="pick_up">Para llevar</string>
     <string name="next_day_text">Siguiente dia</string>
     <string name="same_day_text">Mismo dia</string>
-    // PARA EL SPINNER
+    <string name="adress_label_text">Direccion</string>
+    <string name="phone_label">Tlfno.</string>
+
+    //para el spinner
+
     <string-array name="labels_array">
-        <item>Casa</item>
-        <item>Trabajo</item>
-        <item>Móvil</item>
-        <item>Otros</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
     </string-array>
 
 
