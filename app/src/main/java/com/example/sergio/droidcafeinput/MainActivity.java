@@ -51,18 +51,46 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_order) {
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }*/
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+       switch (item.getItemId()){
+           case R.id.action_contact:
+               Toast.makeText(this,R.string.action_contact_message,Toast.LENGTH_LONG).show();
+
+               return true;
+           case R.id.action_favorites:
+               Toast.makeText(this,R.string.action_favorites_message,Toast.LENGTH_LONG).show();
+               return true;
+           case R.id.action_order:
+               Toast.makeText(this,R.string.action_order_message,Toast.LENGTH_LONG).show();
+               Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+               intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
+               startActivity(intent);
+               return true;
+           case R.id.action_status:
+               Toast.makeText(this,R.string.action_status_message,Toast.LENGTH_LONG).show();
+               return true;
+            default:
+
+       }
+        return  super.onOptionsItemSelected(item);
     }
+
+
 
     public void displayToast(String message) {
         Toast.makeText(getApplicationContext(), message,
