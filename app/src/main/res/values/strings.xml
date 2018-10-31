@@ -19,7 +19,7 @@
 
     <string name="enter_adress_hint">Introduce dirección</string>
     <string name="enter_your_name">Introduce tu nombre</string>
-    <string name="enter_phone">Introduce teléfono</string>
+    <string name="enter_phone">Introduce tlfno.</string>
     //para las notas
     <string name="note">Notas</string>
     <string name="note_text">Introduce nota</string>
@@ -31,6 +31,16 @@
     <string name="next_day_text">Siguiente dia</string>
     <string name="same_day_text">Mismo dia</string>
     <string name="adress_label_text">Direccion</string>
+    <string name="phone_label">Tlfno.</string>
+
+    //para el spinner
+
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
 
 
 </resources>
